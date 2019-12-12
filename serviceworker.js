@@ -1,7 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v3';
 var urlsToCache = [
-	'https://pwastoreapp.github.io/dosbox/index.html',
-  'https://pwastoreapp.github.io/dosbox/manifest.webmanifest',
+	'https://pwastoreapp.github.io/DosBox/index.html',
+  'https://pwastoreapp.github.io/DosBox/manifest.webmanifest',
 ];
 
 self.addEventListener('install', function(event) {
