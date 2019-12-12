@@ -5,7 +5,7 @@
 	"scope" : "/DosBox/",
 	"display" : "fullscreen",
 	"start_url" : "https://pwastoreapp.github.io/DosBox/",
-	"short_name" : "dosbox",
+	"short_name" : "DosBox",
 	"theme_color" : "transparent",
 	"description" : "Emulate Dos Games.",
 	"orientation" : "landscape",
