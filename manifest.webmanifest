@@ -1,13 +1,13 @@
 {
 	"dir" : "ltr",
 	"lang" : "English",
-	"name" : "SuperMechs",
-	"scope" : "/supermechs/",
+	"name" : "DosBox",
+	"scope" : "/dosbox/",
 	"display" : "fullscreen",
-	"start_url" : "https://pwastoreapp.github.io/supermechs/",
-	"short_name" : "SuperMech",
+	"start_url" : "https://pwastoreapp.github.io/dosbox/",
+	"short_name" : "dosbox",
 	"theme_color" : "transparent",
-	"description" : "Build, Fight, Prevail!",
+	"description" : "Emulate Dos Games.",
 	"orientation" : "landscape",
 	"background_color" : "transparent",
 	"icons" : [
