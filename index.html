@@ -1,0 +1,22 @@
+<title>SuperMechs</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="description" content="SuperMechs">
+<link rel="manifest" href="manifest.webmanifest">
+<script>
+document.addEventListener('DOMContentLoaded', init, false);
+function init() {
+
+	if("serviceWorker" in navigator) {
+		navigator.serviceWorker.register('serviceworker.js')
+		.then((registration) => {
+			console.log('Service Worker installed!');
+		}).catch((err) => {
+			console.error('Service Worker failed', err);
+		});
+	}
+
+}
+</script>  
+<center>
+<iframe src="https://www.supermechs.com/" style="border:0px #ffffff none;" name="SuperMechs" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="1330px" width="1330px" allowfullscreen></iframe>
+</center>
